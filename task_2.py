@@ -2,7 +2,7 @@ class Wood:
     """
     Класс описывает дерево
     """
-    def __init__(self, grade: str, age: float, health=True: bool):
+    def __init__(self, grade: str, age: float, health=True: bool):  # FIXME health: bool = True аннотация типов для значений по умолчанию записывается таким образом
         """
         Создание и подготовка к работе объекта "Дерево"
 
@@ -52,7 +52,7 @@ class Backpack:
     """
     Класс описывает рюкзак
     """
-    def __init__(self, type_backpack: str, style: str, volume: int, filling={}: dict):
+    def __init__(self, type_backpack: str, style: str, volume: int, filling={}: dict):  # FIXME filling={} использовать изменяемые типы данных в качестве значений по умолнию не очень хорошо https://colab.research.google.com/drive/1H0SjwycQ5Dx1ArL4QHzxLgVoyzBFzCjE#scrollTo=H63BjOzcXKI0
         """
         Создание и подготовка к работе объекта "Рюкзак"
 
